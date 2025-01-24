@@ -1,5 +1,5 @@
---- ./KernelSU-Next/kernel/Makefile.orig	2024-12-27 07:32:32.979276900 -0500
-+++ ./KernelSU-Next/kernel/Makefile	2024-12-27 07:35:51.180757119 -0500
+--- ./KernelSU/kernel/Makefile.orig	2024-12-27 07:32:32.979276900 -0500
++++ ./KernelSU/kernel/Makefile	2024-12-27 07:35:51.180757119 -0500
 @@ -118,4 +118,22 @@
  ccflags-y += -Wno-implicit-function-declaration -Wno-strict-prototypes -Wno-int-conversion -Wno-gcc-compat
  ccflags-y += -Wno-declaration-after-statement -Wno-unused-function
